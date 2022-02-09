@@ -96,7 +96,7 @@ def fact(value):#function of factorial
         value-=1
     return prod
 
-def sqrt(value): 
+def sqrt(value): #function of square root. 
     value = re.findall("\d+", value)
     value = int(value[0])
     result=value**0.5
